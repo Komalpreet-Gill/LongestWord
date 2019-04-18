@@ -23,9 +23,14 @@ namespace LongestWord
             int[] wordLength = new int[wordArrayLength];
             int x = 0;
 
-            foreach (var word in words)
+            foreach (var word in words) 
             {
-
+                if (word.Length > x)
+                {
+                    
+                    x = word.Length;
+                   
+                }
             }
 
 
